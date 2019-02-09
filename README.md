@@ -4,14 +4,19 @@ Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87
 
 ## Usage
 
+### Basic
 ```
-# basic
 $ cd my-project/
 $ unused-exports
+```
+### Advanced
 
-# custom tsconfig path (defaults to current directory tsconfig.json)
+- custom tsconfig path (defaults to current directory tsconfig.json)
+```
 $ unused-exports --config my-project/path/to/tsconfig.json
+```
 
-# custom file patterns exclusion
+- custom file patterns exclusion
+```
 $ unused-exports 'path/to/include/**/*' '!node_modules' '!src/to/exclude/**/*'
 ```
