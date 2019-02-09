@@ -5,5 +5,5 @@ Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87
 ## Usage
 
 ```
-unused-exports --config path/to/tsconfig.json /include/**/* !exclude/**/*
+unused-exports --config path/to/tsconfig.json include/**/* !exclude/**/*
 ```
