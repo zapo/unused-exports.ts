@@ -1,0 +1,23 @@
+{
+  "name": "unused-exports.ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "unused-exports": "./index.js"
+  },
+  "dependencies": {
+    "args": "^5.0.0",
+    "ts-morph": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/args": "^3.0.0",
+    "@types/node": "^10.12.24",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
