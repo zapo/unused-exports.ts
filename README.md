@@ -5,5 +5,13 @@ Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87
 ## Usage
 
 ```
-unused-exports --config path/to/tsconfig.json include/**/* !exclude/**/*
+# basic
+$ cd my-project/
+$ unused-exports
+
+# custom tsconfig path (defaults to current directory tsconfig.json)
+$ unused-exports --config my-project/path/to/tsconfig.json
+
+# custom file patterns exclusion
+$ unused-exports 'path/to/include/**/*' '!node_modules' '!src/to/exclude/**/*'
 ```
