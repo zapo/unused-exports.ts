@@ -1,6 +1,8 @@
 # unused-exports.ts
 
-Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87310ce24866ae22425af80a9864, thanks to @dsherret.
+Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87310ce24866ae22425af80a9864
+built on top of excellent typescript service api wrapper https://github.com/dsherret/ts-morph
+All credit goes to @dsherret.
 
 ## Usage
 
