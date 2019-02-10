@@ -18,5 +18,5 @@ $ unused-exports --config my-project/path/to/tsconfig.json
 
 - custom file patterns exclusion
 ```
-$ unused-exports 'path/to/include/**/*' '!node_modules' '!src/to/exclude/**/*'
+$ unused-exports 'path/to/include/**/*' '!path/to/exclude/**/*'
 ```
