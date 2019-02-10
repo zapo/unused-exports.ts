@@ -16,7 +16,8 @@
     "typescript": "^3.3.3"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "UNLICENSED"
