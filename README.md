@@ -7,7 +7,7 @@ Shamefully stolen CLI wannabe version of https://gist.github.com/dsherret/0bae87
 ### Basic
 ```
 $ cd my-project/
-$ unused-exports
+$ npx unused-exports # defaults with checking project sources files declared in ./tsconfig.json.
 ```
 ### Advanced
 
@@ -18,5 +18,5 @@ $ unused-exports --config my-project/path/to/tsconfig.json
 
 - custom file patterns exclusion
 ```
-$ unused-exports 'path/to/include/**/*' '!path/to/exclude/**/*'
+$ unused-exports 'path/to/include/**/*' '!path/to/include/not/**/*'
 ```
