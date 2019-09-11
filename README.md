@@ -10,16 +10,16 @@ All credit goes to @dsherret.
 ### Basic
 ```
 $ cd my-project/
-$ npx unused-exports # defaults with checking project sources files declared in ./tsconfig.json.
+$ npx unused-exports.ts # defaults with checking project sources files declared in ./tsconfig.json.
 ```
 ### Advanced
 
 - custom tsconfig path (defaults to current directory tsconfig.json)
 ```
-$ npx unused-exports --config my-project/path/to/tsconfig.json
+$ npx unused-exports.ts --config my-project/path/to/tsconfig.json
 ```
 
 - custom file patterns exclusion
 ```
-$ npx unused-exports 'path/to/include/**/*' '!path/to/include/not/**/*'
+$ npx unused-exports.ts 'path/to/include/**/*' '!path/to/include/not/**/*'
 ```
