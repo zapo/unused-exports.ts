@@ -6,6 +6,10 @@
   "bin": {
     "unused-exports": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zapo/unused-exports.ts.git"
+  },
   "dependencies": {
     "args": "^5.0.0",
     "ts-morph": "^1.0.0"
