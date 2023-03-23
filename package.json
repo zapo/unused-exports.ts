@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "args": "^5.0.0",
-    "ts-morph": "^1.0.0"
+    "ts-morph": "^17.0.1"
   },
   "devDependencies": {
     "@types/args": "^3.0.0",
